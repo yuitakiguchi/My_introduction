@@ -60,12 +60,22 @@ header.masthead {
 .facebook{
   background-color: #3b5998;
   margin-right: 10px;
+  color: #fff;
+  line-height: 50px;
 }
 
+.fa-facebook:before {
+  color: white;
+}
 
+.fa-twitter:before {
+  color: white;
+}
 
 .twitter{
   background-color: #55acee;
+  color: #fff;
+  line-height: 50px;
 }
 
 .twitter:hover {
@@ -76,9 +86,18 @@ header.masthead {
   opacity: 1;
 }
 
+.page-section {
+  height: 700px;
+}
+
 .page-section h2.section-heading {
   margin-bottom: 75px;
   color: #333;
+}
+
+.fa-angle-right:before {
+  font-weight: bold;
+  margin-right: 5px;
 }
 
 #about .facePhoto{
@@ -107,12 +126,6 @@ header.masthead {
 }
 
 
-.self-introduction li::before{
-  content: "\f0da";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  margin-right: 15px;
-}
 
 .col-lg-12 p{
   width: 500px;
@@ -128,11 +141,12 @@ header.masthead {
   border: initial;
 }
 
-.skills img .php{
-  width: 100px;
+#php{
+  object-fit: contain;
 }
 
 .fa-stack img{
   width: 400px;
   height: 300px;
 }
+contain
