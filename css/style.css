@@ -5,10 +5,10 @@
 }
 
 header.masthead {
-  background-image: url("../img/lp_5.jpg");
+  background-image: url("../img/lp_1.jpg");
   background-size: cover;
-  background-color: #FFFFB0;
-  background-blend-mode: darken;
+  /* background-color: #FFFFB0; */
+  /* background-blend-mode: darken; */
 }
 
 #mainNav{
